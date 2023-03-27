@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  color: hsl(223, 47%, 23%);
+  font-family: "Red Hat Display";
+}
+.main {
+  min-width: 100vw;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-color: hsl(225, 100%, 94%);
+}
+.box {
+  max-width: 460px;
+  max-height: 700px;
+
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+
+  box-shadow: 10px 10px 90px #d1cfcf;
+  background-color: #fff;
+}
+.sec-box {
+  flex-grow: 1;
+  padding: 40px;
+
+  display: grid;
+  gap: 25px;
+}
+.illustration {
+  width: 100%;
+
+  border-radius: 20px 20px 0px 0px;
+}
+.texts h1 {
+  margin-bottom: 20px;
+
+  font-size: 25px;
+}
+.texts p {
+  font-size: 18px;
+
+  opacity: 70%;
+}
+.plan {
+  height: 90px;
+  padding: 0px 25px;
+
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background-color: hsl(225, 100%, 98%);
+}
+.plan-price {
+  margin-left: 25px;
+}
+.plan-price p {
+  opacity: 70%;
+}
+.change-btn {
+  margin-left: auto;
+
+  font-size: 16px;
+
+  transition: 0.4s;
+
+  border: none;
+  color: hsl(245, 75%, 52%);
+  background-color: transparent;
+}
+.change-btn:hover {
+  color: hsl(224, 23%, 55%);
+}
+
+/* Botoes */
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+.payment-btn {
+  height: 50px;
+
+  border: none;
+  border-radius: 10px;
+
+  font-size: 16px;
+
+  transition: 0.4s;
+
+  box-shadow: 0px 10px 15px #c9c9c9;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+}
+.payment-btn:hover {
+  opacity: 70%;
+}
+.cancel-btn {
+  height: 50px;
+  margin-top: 15px;
+
+  border: none;
+
+  font-size: 16px;
+
+  transition: 0.4s;
+
+  opacity: 70%;
+  color: hsl(223, 47%, 23%);
+  background-color: transparent;
+}
+.cancel-btn:hover {
+  opacity: 100%;
+}
+
+@media (max-width: 375px) {
+  .main {
+    padding: 30px;
+  }
+}
