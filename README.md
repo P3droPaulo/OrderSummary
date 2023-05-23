@@ -10,11 +10,11 @@ Esta é uma solução para o [desafio do cartão de resumo do pedido no Frontend
   - [Construído com](#construído com)
 - [Autor](#autor)
 
-### Captura de tela
+## Captura de tela
 
 ![Screenshot](./order-summary.jpg)
 
-### Construído com
+## Construído com
 
 - HTML5
 - CSS
